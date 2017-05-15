@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="demo">
+<head>
+    <meta charset="UTF-8"> </meta>
+    <title>Medical System</title>
+    <link rel='stylesheet' href='webjars/bootstrap/3.3.7-1/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='webjars/angularjs/1.6.4/angular.min.js'>
+    <script src="/static/js/patients.js"></script>
+</head>
+<body>
+    <div ng-controller="patientCtrl">
+        <p>The ID is {{patients.patientId}}</p>
+        <p>cos tam: {{patients.age}}</p>
+    </div>
+</body>
+</html>
